@@ -100,6 +100,15 @@ body {
   background-color: #d9d9d9;
 }
 
+.inquiry p {
+  width: 918px;
+  font-size: 19px;
+  text-align: right;
+  color: black;
+  margin: 10px;
+  cursor: pointer;
+}
+
 .bottom {
   background-color: black;
   color: white;
