@@ -5,6 +5,12 @@ body {
     margin: 0;
 }
 
+.all {
+    max-width: 958px;
+    min-width: 958px;
+    margin: 0 auto;
+}
+
 .container {
     margin-top: 10px;
 }
@@ -23,11 +29,22 @@ body {
     font-size: 35px;
 }
 
-.inquiry div {
-    background-image: url(../img/common/midashi-bg.jpg);
-    width: 500px;
-    font-size: 1em;
-    font-weight: bold;
-    background-color: #d9d9d9;
+.window div {
+    background-image: url(icon.png) ;
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    padding-top: 8px;
+    font-size: 20px;
+    margin-left: 25px;
+    height: 36px;
+}
+
+.window h2 {
+    margin-left: 25px;
+    font-weight: normal;
+}
+
+.window address {
+    cursor: pointer;
     margin-left: 25px;
 }
