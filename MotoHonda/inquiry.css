@@ -1,51 +1,74 @@
 @charset "utf-8";
 
 body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .all {
-    max-width: 958px;
-    min-width: 958px;
-    margin: 0 auto;
+  max-width: 958px;
+  min-width: 958px;
+  margin: 0 auto;
 }
 
 .container {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .left img {
-    margin: 0 5px 15px 0;
+  margin: 0 5px 15px 0;
 }
 
 .right img {
-    margin-left: 40%;
-    border-radius: 25%;
+  margin-left: 40%;
+  border-radius: 25%;
 }
 
 .inquiry h1 {
-    margin: 10px 0 0 25px;
-    font-size: 35px;
+  margin: 10px 0 0 25px;
+  font-size: 35px;
 }
 
 .window div {
-    background-image: url(icon.png) ;
-    background-repeat: no-repeat;
-    padding-left: 60px;
-    padding-top: 8px;
-    font-size: 20px;
-    margin-left: 25px;
-    height: 36px;
+  background-image: url(icon.png);
+  background-repeat: no-repeat;
+  padding-left: 60px;
+  padding-top: 8px;
+  font-size: 20px;
+  margin-left: 25px;
+  height: 36px;
 }
 
 .window h2 {
-    margin-left: 25px;
-    font-weight: normal;
+  margin-left: 25px;
+  font-weight: normal;
 }
 
-.window address {
-    cursor: pointer;
-    margin-left: 25px;
-    font-size: 23px;
+.window h3 {
+  margin-left: 25px;
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+.window a {
+  cursor: pointer;
+  margin-left: 25px;
+  font-size: 23px;
+}
+
+.Honda {
+  width: 918px;
+  font-size: 21px;
+  text-align: right;
+  margin: 10px;
+}
+
+.bottom {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px 0;
+  margin-top: 20px;
 }
